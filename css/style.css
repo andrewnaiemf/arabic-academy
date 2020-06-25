@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    html{
+        direction: rtl;
+    }
+    
+    
+    /*****************************************start navbar*************************************/  
+
+.navbar ,nav{
+    background-color: rgb(97,101,113) !important;
+    padding-bottom: 0;
+    width: 100% !important;
+    float: right;
+}
+.nav-right{
+    /* display: inline; */
+    float: right;
+}
+.navbar .top {
+    width: 100%;
+
+}
+.navbar .top  img{
+    width: 80px;
+    height: 80px ;
+    float: right;
+
+}
+.navbar .top .links{
+    /* display: inline; */
+    float: left;
+}
+.navbar .top .links .btn{
+    color: #F4F4F4;
+
+}
+
+/*   down nav  */
+.down{
+    width: 90%;
+    margin: 0 auto;
+}
+.collapse ul{
+    float: right;
+}
+.collapse ul li{
+    padding: 5px;
+    margin-left: 10px;
+    background-color: #878A93;
+
+}
+.collapse ul li a{
+    color: #F4F4F4 !important;
+
+}
+
+ .search{
+    float: left !important;
+    width: 175px !important;
+    height: 30px;
+    border-radius: 40px;
+    background-color: #878A93;
+    margin-bottom: 0;
+    /* display: inline; */
+}
+ .search span{
+    float: right;
+    margin-right: 10px;
+}
+ .search i{
+    margin-left: 10px;
+
+}
+    /*****************************************end navbar***************************************/
+
+
+
+
+    /**********************************strat breadcrumb****************************************/
+
+    .breadcrumb{
+        background-color: #ffff !important;
+    }
+    .breadcrumb i,a{
+        color:black !important;
+    }
+    /**********************************end breadcrumb****************************************/
+    /***********************************strat courses****************************************/
+ 
+.cources{
+    padding: 100px 0 ;
+    text-align: center;
+}
+.cources .container-fluid{
+    padding: 0 80px;
+}
+.cources h1{
+    padding-bottom: 30px;
+}
+.cources .title{
+    margin-bottom: 50px;
+}
+.cources img{
+    width: 100%;
+}
+.cources .col-md-4{
+    margin-top: 40px;
+}
+    /***********************************end courses****************************************/
+    /***********************************strat lessons**************************************/
+/* .lessons{
+    padding: 100px 0; 
+    background-color: #F4F6F8; 
+    text-align: center;
+    background-color: black;
+}
+.lessons .container-fluid{
+    padding: 0 80px;
+}
+.lessons h1{
+    padding-bottom: 30px;
+
+}
+.lessons .title{
+    margin-bottom: 50px;
+
+}
+.lessons .col-md-3{
+    background-color: #ffff;
+    height: 200px;
+    padding: 30px; 
+    margin-top: 40px;
+}
+.lessons img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+} */
+
+.lessons{
+    padding: 100px 0 ;
+    text-align: center;
+    background-color: #F4F6F8; 
+
+}
+.lessons .container-fluid{
+    padding: 0 80px;
+}
+.lessons h1{
+    padding-bottom: 30px;
+}
+.lessons .title{
+    margin-bottom: 50px;
+}
+.lessons .content{
+    width: 100%;
+    background-color: #ffff;
+    height: 200px;
+    padding-top: 30px;
+    box-shadow:  5px 10px #aaaaaa;
+}
+.lessons .col-md-3{
+    margin-top: 40px;
+}
+.lessons img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+} 
+
+    /***********************************end lessons****************************************/
+    /***********************************start questions************************************/
+.question{
+    padding: 80px 50px;
+    text-align: center;
+}
+.question .top{
+    padding-bottom: 150px;
+}
+.question h1{
+    margin-bottom: 30px;
+}
+.question p{
+    margin-bottom: 20px;
+}
+.question nav{
+    background-color: #ffff !important;
+    
+}
+.question ul,.question ul  li{
+    background-color: #ffff;
+}
+.question .collapse ul  li a{
+    color: #000000 !important;
+}
+
+.question .down .col-md-6{
+    box-shadow: 0 0 10px 1px rgba(191, 191, 191, 0.20);
+    text-align: right;
+
+}
+.question .down .col-md-6 p{
+    margin-top: 20px;
+}
+.question .down .col-md-6 hr{
+    width: 90%;
+    margin: 0 auto;
+}
+
+    /***********************************end  questions****************************************/
+    /***********************************start books*******************************************/
+
+.books{
+    padding: 100px 10px;
+    text-align: center;
+    background-color: #F4F6F8;
+    justify-content: center;
+
+}
+.books h1{
+    padding-bottom: 50px;
+}
+
+.books p{
+    margin-bottom: 30px;
+    color: #37848B;
+}
+
+.books .card{
+    height: 550px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+.books img{
+    width: 100%;
+    height: 350px;
+}
+.books i{
+    color: #EBCE0D;
+}
+
+    /***********************************end books*******************************************/
+    /***********************************start  abut-academy*********************************/
+
+.abut-academy{
+    padding: 100px 50px;
+    text-align: right;
+    color: #525252;
+    line-height: 40px;
+    font-weight: 500;
+    font-size: large;
+}
+.abut-academy span{
+    color: #3793BA;
+    cursor: pointer
+}
+.abut-academy h1{
+    margin: 50px 0;
+    text-align: center;
+}
+.abut-academy p{
+    margin-bottom: 30px;
+}
+.abut-academy .large-logo{
+    width: 100%;
+    height: 100%;
+}
+.abut-academy .large-logo img{
+    width: 100%;
+}
+
+        /***********************************end  abut-academy*********************************/
+        /***********************************start  enroll*************************************/
+
+.enroll{
+    text-align: center;
+    padding-bottom: 100px;
+    background-color: #F4F6F8;
+    margin-bottom: 100px;
+}
+.enroll .container{
+    padding-top: 130px;
+}
+.enroll h1{
+    padding: 50px auto ;
+}
+.enroll .btn{
+    margin-top: 30px;
+    padding: 20px 50px;
+    color: #ffff !important;
+    font-size: larger;
+
+}
+        /***********************************end  enroll*************************************/
+        /***********************************start  footer***********************************/
+footer{
+    padding: 20px auto ;
+    text-align: center;
+    color: #525252;
+    margin-bottom: 50px;
+}
+
+footer hr{
+    margin-bottom: 80px;
+}
+footer ul{
+    text-align: center;
+}
+footer ul li {
+    padding: 10px;
+    cursor: pointer
+}
+        /***********************************end  footer*************************************/
+
+
+
+     
